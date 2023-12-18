@@ -333,7 +333,7 @@ $container->loadFromExtension('fm_elfinder', [
                             'adapter_service' => 'mautic.core.service.local_file_adapter',
                             'options'         => [],
                         ],
-                        'upload_allow'  => ['image/png', 'image/jpg', 'image/jpeg', 'image/gif'],
+                        'upload_allow'  => ['image/png', 'image/jpg', 'image/jpeg', 'image/gif', 'image/svg+xml'],
                         'upload_deny'   => ['all'],
                         'accepted_name' => '/^[\w\x{0300}-\x{036F}][\w\x{0300}-\x{036F}\s\.\%\-]*$/u', // Supports diacritic symbols
                         'url'           => '%env(resolve:MAUTIC_EL_FINDER_URL)%', // We need to specify URL in case mod_rewrite is disabled
