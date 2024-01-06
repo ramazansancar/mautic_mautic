@@ -13,7 +13,7 @@
 <?php echo $view->render('MauticFocusBundle:Builder\Notification:animations.less.php'); ?>
 
 .mf-notification-iframe {
-    position: fixed;
+    position: absolute;
     z-index: 21001;
     margin-top: -100%;
 

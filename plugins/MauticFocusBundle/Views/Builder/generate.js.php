@@ -212,6 +212,12 @@ switch ($style) {
 
             // Register scroll events, etc
             registerFocusEvent: function () {
+
+                window.addEventListener('resize', function () {
+                    Focus.disableIFrameResizer();
+                    Focus.enableIframeResizer();
+                });
+
                 if (Focus.debug)
                     console.log('registerFocusEvent()');
 
@@ -610,7 +616,7 @@ switch ($style) {
                 Focus.iframe.style.width = "100%";
                 Focus.iframe.style.height = "100%";
                 Focus.iframe.src = "about:blank";
-                Focus.iframe.scrolling = "no";
+                Focus.iframe.scrolling = "auto";
                 Focus.iframe.className = "<?php echo $iframeClass; ?>";
 
                 var bodyFirstChild = document.body.firstChild;

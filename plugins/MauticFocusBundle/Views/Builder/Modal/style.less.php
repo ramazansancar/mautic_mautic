@@ -11,7 +11,7 @@
 ?>
 
 .mf-modal {
-    position: fixed;
+    position: relative;
     opacity: 1;
     z-index: 2000;
     margin: auto;
