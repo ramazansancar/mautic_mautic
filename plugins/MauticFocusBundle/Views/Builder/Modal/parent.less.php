@@ -13,7 +13,7 @@
 <?php echo $view->render('MauticFocusBundle:Builder\Modal:animations.less.php'); ?>
 <?php echo $view->render('MauticFocusBundle:Builder\Modal:overlay.less.php'); ?>
 .mf-modal-iframe {
-    position: absolute;
+    position: fixed;
     z-index: 21003;
     left: 50%;
 
