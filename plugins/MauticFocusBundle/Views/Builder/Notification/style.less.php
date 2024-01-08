@@ -39,7 +39,7 @@
     }
 
     .mf-notification-close {
-        position: static;
+        position: fixed;
         top: 5px;
         right: 5px;
 
