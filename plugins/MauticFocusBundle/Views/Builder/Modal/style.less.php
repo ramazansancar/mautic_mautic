@@ -50,7 +50,7 @@
     .mf-modal-close {
         position: fixed;
         top: 5px;
-        right: 5px;
+        right: 8px;
 
         a {
             font-size: 1.4em;
