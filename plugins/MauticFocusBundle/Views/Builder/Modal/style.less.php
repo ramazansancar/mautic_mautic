@@ -48,9 +48,9 @@
     }
 
     .mf-modal-close {
-        position: absolute;
-        top: 0;
-        right: 8px;
+        position: static;
+        top: 5px;
+        right: 5px;
 
         a {
             font-size: 1.4em;

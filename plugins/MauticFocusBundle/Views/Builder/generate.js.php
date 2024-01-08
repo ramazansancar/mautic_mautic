@@ -472,6 +472,7 @@ switch ($style) {
 
                 // Set body margin to 0
                 Focus.iframeDoc.getElementsByTagName('body')[0].style.margin = 0;
+                Focus.iframeDoc.getElementsByTagName('body')[0].style.overflowX = 'hidden';
 
                 // Find elements that should be moved to parent
                 var move = Focus.iframeDoc.getElementsByClassName('mf-move-to-parent');
